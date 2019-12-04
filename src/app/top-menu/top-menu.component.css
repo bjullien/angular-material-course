@@ -1,0 +1,8 @@
+:host {
+  width: 100%;                  /* menu is 100% width */
+  height: 40px;
+  display: block;
+  background: #3f51b5;        /* indigo blue */
+  line-height: 40px;            /* to ensure button is centered */
+  color: #fff;
+}
