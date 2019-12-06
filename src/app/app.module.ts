@@ -15,6 +15,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { TopMenuComponent } from './top-menu/top-menu.component';
+import { CoursesCardListComponent } from './courses-card-list/courses-card-list.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { TopMenuComponent } from './top-menu/top-menu.component';
         AppComponent,
         HomeComponent,
         AboutComponent,
-        TopMenuComponent
+        TopMenuComponent,
+        CoursesCardListComponent
     ],
     imports: [
         BrowserModule,
